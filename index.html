@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的书单</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0366d6;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f6f8fa;
+            border: 1px solid #e1e4e8;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            font-size: 18px;
+            transition: transform 0.2s;
+        }
+        li:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>我的图书列表</h1>
+        <ul>
+            <!-- 你可以在这里添加或修改你的书名 -->
+            <li>《三体》- 刘慈欣</li>
+            <li>《活着》- 余华</li>
+            <li>《百年孤独》- 加西亚·马尔克斯</li>
+            <li>《人类简史》- 尤瓦尔·赫拉利</li>
+            <li>《原则》- 瑞·达利欧</li>
+            <!-- 像这样添加新书 -->
+            <!-- <li>《新书名字》- 作者</li> -->
+        </ul>
+    </div>
+</body>
+</html>
